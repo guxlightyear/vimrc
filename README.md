@@ -18,3 +18,9 @@ In order to upgrade all bundled plugins
 
 	$ cd ~/.vim
 	$ git submodule foreach git pull origin master
+
+
+
+This repository was inspired by instructions in:
+http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+
