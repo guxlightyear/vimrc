@@ -81,3 +81,6 @@ endif
 " Nerdtree bindings
 map <F2> <ESC>:NERDTreeToggle<RETURN>
 map <F3> <ESC>:NERDTreeFind<RETURN>
+
+" Fuzzy find
+map ; <ESC>:FZF<RETURN>

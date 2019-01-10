@@ -4,3 +4,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = http://github.com/junegunn/fzf
