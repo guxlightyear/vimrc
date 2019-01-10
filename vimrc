@@ -77,6 +77,11 @@ if has('persistent_undo') " vim >= 7.3
   set undofile
 endif
 
+" Recognize README.md as Markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh']
+
+
 " Enable mystical tutor colour scheme
 colorscheme mysticaltutor
 
