@@ -6,10 +6,10 @@ Installation:
 	$ ~/.vim/setup.sh
 
 The setup.sh script will do the following:
+
 	# Create symlinks to the key files
 	$ ln -s ~/.vim/vimrc ~/.vimrc
 	$ ln -s ~/.vim/gvimrc ~/.gvimrc
-
 	# Switch to the ~/.vim directory and fetch submodules:
 	$ cd ~/.vim
 	$ git submodule update --init
