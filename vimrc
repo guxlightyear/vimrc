@@ -77,3 +77,7 @@ if has('persistent_undo') " vim >= 7.3
   set undofile
 endif
 
+
+" Nerdtree bindings
+map <F2> <ESC>:NERDTreeToggle<RETURN>
+map <F3> <ESC>:NERDTreeFind<RETURN>
