@@ -30,7 +30,7 @@ http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-patho
 
 Plugins installed so far:
 
-# Nerdtree: a file tree explorer. With my current settings it gets activated with the shortcut <F2>
-# FZF: Fuzzy finder: similar to Eclipse <ctrl>+R. Type ";" to activate
-# Lightline: Nice status line replacement. Activated by default
-# MysticalTutor: My preferred colour scheme so far
+* Nerdtree: a file tree explorer. With my current settings it gets activated with the shortcut <F2>
+* FZF: Fuzzy finder: similar to Eclipse <ctrl>+R. Type ";" to activate
+* Lightline: Nice status line replacement. Activated by default
+* MysticalTutor: My preferred colour scheme so far
