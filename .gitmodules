@@ -7,3 +7,9 @@
 [submodule "bundle/fzf"]
 	path = bundle/fzf
 	url = http://github.com/junegunn/fzf
+[submodule "bundle/lightline.vim"]
+	path = bundle/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule "bundle/mysticaltutor"]
+	path = bundle/mysticaltutor
+	url = https://github.com/caksoylar/vim-mysticaltutor.git

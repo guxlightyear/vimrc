@@ -77,10 +77,15 @@ if has('persistent_undo') " vim >= 7.3
   set undofile
 endif
 
+" Enable mystical tutor colour scheme
+colorscheme mysticaltutor
 
 " Nerdtree bindings
 map <F2> <ESC>:NERDTreeToggle<RETURN>
-map <F3> <ESC>:NERDTreeFind<RETURN>
+let g:NERDTreeNodeDelimiter = "\u00a0"
+
 
 " Fuzzy find
 map ; <ESC>:FZF<RETURN>
+
+
