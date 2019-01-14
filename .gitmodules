@@ -13,3 +13,6 @@
 [submodule "bundle/mysticaltutor"]
 	path = bundle/mysticaltutor
 	url = https://github.com/caksoylar/vim-mysticaltutor.git
+[submodule "bundle/VimCompleteMe"]
+	path = bundle/VimCompleteMe
+	url = https://github.com/ajh17/VimCompletesMe.git
