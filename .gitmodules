@@ -16,3 +16,6 @@
 [submodule "bundle/VimCompleteMe"]
 	path = bundle/VimCompleteMe
 	url = https://github.com/ajh17/VimCompletesMe.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git

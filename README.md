@@ -29,6 +29,7 @@ $ git submodule foreach git pull origin master
 * Lightline: Nice status line replacement. Activated by default
 * MysticalTutor: My preferred colour scheme so far
 * VimCompletesMe: Code completion
+* vim-terraform: vim integration
 
 ## Credits
 This repository was inspired by instructions in:
