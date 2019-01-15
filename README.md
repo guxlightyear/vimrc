@@ -24,12 +24,12 @@ $ git submodule foreach git pull origin master
 ```
 
 ## Plugins installed so far
-* Nerdtree: a file tree explorer. With my current settings it gets activated with the shortcut <F2>
+* Nerdtree: a file tree explorer. With my current settings it gets activated with the shortcut `<F2>`
 * FZF: Fuzzy finder: similar to Eclipse <ctrl>+R. Type ";" to activate
 * Lightline: Nice status line replacement. Activated by default
 * MysticalTutor: My preferred colour scheme so far
 * VimCompletesMe: Code completion
-* vim-terraform: vim integration
+* vim-terraform: vim integration with terraform. Allows running :Terraform
 
 ## Credits
 This repository was inspired by instructions in:
