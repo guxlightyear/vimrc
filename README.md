@@ -23,6 +23,12 @@ $ cd ~/.vim
 $ git submodule foreach git pull origin master
 ```
 
+## To install new plugins use:
+```sh
+$ cd ~/.vim
+$ git submodule add <module URL> bundle/<plugin name>
+```
+
 ## Plugins installed so far
 * Nerdtree: a file tree explorer. With my current settings it gets activated with the shortcut `<F2>`
 * FZF: Fuzzy finder: similar to Eclipse <ctrl>+R. Type `F3` to activate
@@ -31,6 +37,8 @@ $ git submodule foreach git pull origin master
 * MysticalTutor: My preferred colour scheme so far
 * VimCompletesMe: Code completion
 * vim-terraform: vim integration with terraform. Allows running :Terraform
+* sensible: sensible default values by Tim Pope
+* commentary: provides capability to comment code in multiple languages. Use `gc` + movement command to comment code out
 
 ## Credits
 This repository was inspired by instructions in:
@@ -38,3 +46,4 @@ http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-patho
 
 vimrc settings inspired from:
 https://github.com/dhinus/vimfiles
+
