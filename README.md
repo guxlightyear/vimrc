@@ -26,7 +26,7 @@ $ git submodule foreach git pull origin master
 ## Plugins installed so far
 * Nerdtree: a file tree explorer. With my current settings it gets activated with the shortcut `<F2>`
 * FZF: Fuzzy finder: similar to Eclipse <ctrl>+R. Type `F3` to activate
-** Also, don't fzf needs to be installed in the system: brew install fzf
+    - Also, don't fzf needs to be installed in the system: brew install fzf
 * Lightline: Nice status line replacement. Activated by default
 * MysticalTutor: My preferred colour scheme so far
 * VimCompletesMe: Code completion
