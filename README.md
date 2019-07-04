@@ -7,7 +7,7 @@ $ git clone git://github.com/guxlightyear/vimrc.git ~/.vim
 $ ~/.vim/setup.sh
 
 # To make fzf work, also needs to be installed
-brew update fzf
+$ brew update fzf
 ```
 
 ## Setup.sh
