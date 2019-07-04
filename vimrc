@@ -19,16 +19,17 @@ set fileencodings=utf-8
 set encoding=utf-8
 
 " Tabs sweet tabs
-autocmd FileType * set ts=2 sw=2 sts=2 expandtab
-autocmd FileType c,m,h,objc,python,php set ts=4 sw=4 sts=4 expandtab
-autocmd FileType go set ts=4 sw=4 sts=4 noexpandtab
+"autocmd FileType * set ts=2 sw=2 sts=2 expandtab
+"autocmd FileType c,m,h,objc,python,php set ts=4 sw=4 sts=4 expandtab
+"autocmd FileType go set ts=4 sw=4 sts=4 noexpandtab
 
 " Highlight tabs and trailing spaces
 set listchars=tab:\|\ ,trail:·,extends:>,precedes:<,nbsp:+
 set list
 
 " Magic indenting
-filetype plugin indent on
+"filetype plugin indent on
+"filetype plugin on
 
 " Keep tidy
 set formatoptions=tcqro
@@ -89,10 +90,8 @@ colorscheme mysticaltutor
 map <F2> <ESC>:NERDTreeToggle<RETURN>
 let g:NERDTreeNodeDelimiter = "\u00a0"
 
-
 " Fuzzy find
-map ; <ESC>:FZF<RETURN>
-
+map <F3> <ESC>:FZF<RETURN>
 
 " Vim terraform setup
 let g:terraform_align=1
