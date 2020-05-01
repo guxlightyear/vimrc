@@ -40,6 +40,8 @@ if exists('+colorcolumn') " vim >= 7.3
   set colorcolumn=120
 endif
 
+" Do not use octal when using <C-a> and <C-x>
+set nrformats=
 
 " Let's get wild
 set wildmenu
@@ -106,3 +108,10 @@ noremap K     {
 noremap J     }
 noremap H     ^
 noremap L     $
+
+" tabulation using tab
+nnoremap <Tab>   >>
+nnoremap <S-Tab> <<
+vnoremap <Tab>   >><Esc>gv
+vnoremap <S-Tab> <<<Esc>gv
+
